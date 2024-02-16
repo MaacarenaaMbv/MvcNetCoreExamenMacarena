@@ -1,0 +1,21 @@
+﻿
+<h1>Nuevo Comic</h1>
+
+<p>
+    <a asp-controller="Comics" asp-action="Index">
+        Volver atrás
+    </a>
+</p>
+
+<form method="post">
+    <label>Nombre</label>
+    <input type="text" class="form-control" name="nombre"/>
+    <label>Descripcion</label>
+    <input type="text" class="form-control" name="descripcion" />
+    <label>Imagen</label>
+    <input type="text" class="form-control" name="imagen" />
+    <br />
+    <button class="btn btn-outline-primary">
+        Crear Comic
+    </button>
+</form>
